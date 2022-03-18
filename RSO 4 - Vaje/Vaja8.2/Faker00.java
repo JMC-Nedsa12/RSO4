@@ -4,8 +4,8 @@ public class Faker00 {
       
     public void fakinTest() {
        //Faker faker = new Faker();
-       Faker faker = new Faker( new Locale("it"));
-       // Faker faker = new Faker( new Locale("de"));
+       // Faker faker = new Faker( new Locale("it"));
+       Faker faker = new Faker( new Locale("de"));
 
         String name = faker.name().fullName(); // Miss Samanta Schmidt
         String firstName = faker.name().firstName(); // Emory
