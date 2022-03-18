@@ -26,7 +26,7 @@ public class SQLVmesnik extends Application
 
         // JavaFX must have a Scene (window content) inside a Stage (window)
         Scene scene = new Scene(root);
-        stage.setTitle("SQL Vmesnik");
+        stage.setTitle("mySQL Vmesnik");
         stage.setScene(scene);
        // neki
 
