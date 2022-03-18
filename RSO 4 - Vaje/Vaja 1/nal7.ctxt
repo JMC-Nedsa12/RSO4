@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=nal7
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=niz\ a
+comment2.target=java.lang.String\ obrni(java.lang.String,\ int)
+comment3.params=st\ obrnjen
+comment3.target=int\ obrni(int,\ int)
+numComments=4

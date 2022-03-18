@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Segment()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Segment\r\n
+comment1.params=pred
+comment1.target=Segment(Segment)
+comment2.params=
+comment2.target=int\ getStanje()
+comment3.params=
+comment3.target=void\ overflow()
+comment4.params=
+comment4.target=void\ up()
+comment5.params=
+comment5.target=void\ down()
+comment6.params=nasl
+comment6.target=void\ setNasl(Segment)
+comment7.params=pred
+comment7.target=void\ setPrev(Segment)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

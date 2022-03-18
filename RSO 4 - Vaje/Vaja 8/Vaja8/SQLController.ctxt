@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SQLController
+comment1.params=event
+comment1.target=void\ connect(javafx.event.ActionEvent)
+comment2.params=event
+comment2.target=void\ disconnect(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ submitQuery(javafx.event.ActionEvent)
+numComments=4

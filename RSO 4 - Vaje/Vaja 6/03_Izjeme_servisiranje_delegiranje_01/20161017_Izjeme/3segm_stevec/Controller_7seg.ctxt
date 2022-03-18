@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Controller_7seg
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=f
+comment2.target=void\ up(javafx.event.ActionEvent)
+comment3.params=
+comment3.target=void\ update()
+comment4.params=e
+comment4.target=void\ reset(javafx.event.ActionEvent)
+comment5.params=
+comment5.target=void\ r1()
+comment6.params=
+comment6.target=void\ r2()
+comment7.params=e
+comment7.target=void\ pause(javafx.event.ActionEvent)
+comment8.params=e
+comment8.target=void\ down(javafx.event.ActionEvent)
+numComments=9

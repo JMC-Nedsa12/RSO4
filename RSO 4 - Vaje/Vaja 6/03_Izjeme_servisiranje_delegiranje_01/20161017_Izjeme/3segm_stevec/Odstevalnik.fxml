@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OdstevalnikController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dadada" height="90.0" layoutX="172.0" layoutY="176.0" stroke="BLACK" strokeType="INSIDE" width="460.0" />
+      <TextField fx:id="inputField" layoutX="316.0" layoutY="52.0" prefHeight="38.0" prefWidth="169.0" />
+      <Button fx:id="setButton" layoutX="358.0" layoutY="106.0" mnemonicParsing="false" onAction="#setTime" prefHeight="38.0" prefWidth="85.0" text="Nastavi">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="261.0" layoutY="14.0" text="Nastavi čas (v sekundah)">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="s7" layoutX="255.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label fx:id="s6" layoutX="297.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label fx:id="s5" layoutX="339.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label fx:id="s4" layoutX="381.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label fx:id="s3" layoutX="423.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label fx:id="s2" layoutX="465.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Label fx:id="s1" layoutX="507.0" layoutY="170.0" text="0">
+         <font>
+            <Font size="71.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="508.0" layoutY="380.0" mnemonicParsing="false" onAction="#startTime" prefHeight="90.0" prefWidth="149.0" text="START">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="pauseButton" layoutX="329.0" layoutY="380.0" mnemonicParsing="false" onAction="#pause" prefHeight="90.0" prefWidth="149.0" text="PAUSE">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="resetButton" layoutX="148.0" layoutY="380.0" mnemonicParsing="false" onAction="#reset" prefHeight="90.0" prefWidth="149.0" text="RESET">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

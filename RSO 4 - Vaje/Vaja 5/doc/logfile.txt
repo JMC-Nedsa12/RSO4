@@ -1,0 +1,40 @@
+Class documentation
+<---- javadoc command: ---->
+D:\Downloads\BlueJ-windows-422\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+D:\Downloads\BlueJ-windows-422\bluej\lib\bluejcore.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\junit-4.11.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\hamcrest-core-1.3.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\lang-stride.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.base.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.controls.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.fxml.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.graphics.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.media.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.properties.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.swing.jar;D:\Downloads\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.web.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\mysql-connector-java-8.0.28.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\java-faker-master.zip;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\automaton-1.11-8.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\commons-lang3-3.5.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\generex-1.0.2.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\javafaker-1.0.2.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\lib\snakeyaml-1.23-android.jar;C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5
+-d
+C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\Zapis__.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\Zapis__.java...
+Constructing Javadoc information...
+Standard Doclet version 11.0.2
+Building tree for all the packages and classes...
+Generating C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc\Zapis__.html...
+C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\Zapis__.java:9: warning - invalid usage of tag >
+C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\Zapis__.java:107: warning - @param argument "zapis" is not a parameter name.
+Generating C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc\package-summary.html...
+C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\Zapis__.java:9: warning - invalid usage of tag >
+Generating C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc\allclasses.html...
+Generating C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc\allclasses.html...
+Generating C:\Users\JMC_Nedsa12\Desktop\RSO 4 - Vaje\Vaja 5\doc\index.html...
+3 warnings

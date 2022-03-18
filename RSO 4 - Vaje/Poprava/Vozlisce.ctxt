@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Vozlisce
+comment1.params=
+comment1.target=Vozlisce()
+comment2.params=value
+comment2.target=Vozlisce(java.lang.String)
+comment3.params=
+comment3.target=Vozlisce\ getNasl()
+comment4.params=
+comment4.target=java.lang.String\ getVrednost()
+comment5.params=v
+comment5.target=void\ setNasl(Vozlisce)
+comment6.params=s
+comment6.target=void\ setVrednost(java.lang.String)
+comment7.params=v
+comment7.target=boolean\ jeManjsi(Vozlisce)
+numComments=8

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Element
+comment1.params=
+comment1.target=Element()
+comment2.params=value
+comment2.target=Element(int)
+comment3.params=
+comment3.target=Element\ getNasl()
+comment4.params=
+comment4.target=int\ getVrednost()
+comment5.params=v
+comment5.target=void\ setNasl(Element)
+comment6.params=s
+comment6.target=void\ setVrednost(int)
+numComments=7

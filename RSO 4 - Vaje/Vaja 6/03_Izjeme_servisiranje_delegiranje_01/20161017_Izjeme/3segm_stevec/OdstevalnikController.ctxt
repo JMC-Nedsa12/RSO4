@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=OdstevalnikController
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=event
+comment2.target=void\ pause(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ reset(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ setTime(javafx.event.ActionEvent)
+comment5.params=ev
+comment5.target=void\ startTime(javafx.event.ActionEvent)
+comment6.params=
+comment6.target=void\ update()
+comment7.params=
+comment7.target=void\ alarm()
+numComments=8

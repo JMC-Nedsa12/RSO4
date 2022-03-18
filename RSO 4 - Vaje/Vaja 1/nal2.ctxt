@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=nal2
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=tab\ a1
+comment2.target=boolean\ rekurzija(int[],\ int)
+numComments=3

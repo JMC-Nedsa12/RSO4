@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=nal5
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=niz
+comment2.target=java.lang.String\ ustvariP(java.lang.String)
+comment3.params=st
+comment3.target=int\ ustvariP(int)
+comment4.params=st\ obrnjen
+comment4.target=int\ obrni(int,\ int)
+comment5.params=niz\ a
+comment5.target=java.lang.String\ obrni(java.lang.String,\ int)
+numComments=6

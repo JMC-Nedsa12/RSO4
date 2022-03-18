@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SQLController">
+   <children>
+      <TextArea fx:id="queryField" layoutX="34.0" layoutY="40.0" prefHeight="271.0" prefWidth="321.0" />
+      <TextArea fx:id="resultField" editable="false" layoutX="34.0" layoutY="359.0" prefHeight="200.0" prefWidth="732.0" />
+      <TextField fx:id="portInput" layoutX="589.0" layoutY="70.0" promptText="port" />
+      <TextField fx:id="userInput" layoutX="589.0" layoutY="112.0" promptText="username" />
+      <TextField fx:id="baseInput" layoutX="589.0" layoutY="196.0" promptText="database" />
+      <TextField fx:id="passInput" accessibleRole="PASSWORD_FIELD" layoutX="589.0" layoutY="155.0" promptText="password" />
+      <TextField fx:id="serverInput" layoutX="589.0" layoutY="29.0" promptText="server" />
+      <Button fx:id="connecButton" layoutX="638.0" layoutY="236.0" mnemonicParsing="false" onAction="#connect" text="Poveži" />
+      <Button fx:id="disconnectButton" layoutX="611.0" layoutY="275.0" mnemonicParsing="false" onAction="#disconnect" text="Prekini povezavo" />
+      <Button fx:id="searchButton" layoutX="373.0" layoutY="155.0" mnemonicParsing="false" onAction="#submitQuery" text="Poizvedovanje" />
+      <Label layoutX="34.0" layoutY="333.0" text="Rezultat poizvedbe:">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="16.0" text="Ukaz poizvedbe:">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="535.0" layoutY="34.0" text="Strežnik:" />
+      <Label layoutX="548.0" layoutY="74.0" text="Vrata:" />
+      <Label layoutX="521.0" layoutY="116.0" text="Uporabnik:" />
+      <Label layoutX="547.0" layoutY="159.0" text="Geslo:" />
+      <Label layoutX="552.0" layoutY="200.0" text="Baza:" />
+   </children>
+</AnchorPane>

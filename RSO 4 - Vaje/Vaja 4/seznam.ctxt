@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=seznam
+comment1.params=a
+comment1.target=void\ dodajZacetek(java.lang.String)
+comment2.params=a
+comment2.target=void\ dodajKonec(java.lang.String)
+comment3.params=v
+comment3.target=void\ izpisiReversed(seznam.Vozlisce)
+comment4.params=v
+comment4.target=void\ izpisiInOrder(seznam.Vozlisce)
+comment5.params=
+comment5.target=void\ test()
+numComments=6

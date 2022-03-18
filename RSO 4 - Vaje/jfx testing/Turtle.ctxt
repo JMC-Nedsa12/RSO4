@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Turtle
+comment1.params=x0\ y0\ a0
+comment1.target=Turtle(double,\ double,\ double)
+comment10.params=min\ max
+comment10.target=void\ setYscale(double,\ double)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=delta
+comment2.target=void\ turnLeft(double)
+comment3.params=step
+comment3.target=void\ goForward(double)
+comment4.params=
+comment4.target=void\ show()
+comment5.params=t
+comment5.target=void\ pause(int)
+comment6.params=color
+comment6.target=void\ setPenColor(java.awt.Color)
+comment7.params=radius
+comment7.target=void\ setPenRadius(double)
+comment8.params=width\ height
+comment8.target=void\ setCanvasSize(int,\ int)
+comment9.params=min\ max
+comment9.target=void\ setXscale(double,\ double)
+numComments=12

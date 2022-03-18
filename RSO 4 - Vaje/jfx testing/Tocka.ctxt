@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Tocka
+comment1.params=
+comment1.target=Tocka()
+comment2.params=x\ y
+comment2.target=Tocka(int,\ int)
+comment3.params=
+comment3.target=double\ getY()
+comment4.params=
+comment4.target=double\ getX()
+comment5.params=y
+comment5.target=void\ setY(double)
+comment6.params=x
+comment6.target=void\ setX(double)
+numComments=7

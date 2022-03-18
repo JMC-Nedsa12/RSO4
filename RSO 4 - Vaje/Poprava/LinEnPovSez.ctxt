@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=LinEnPovSez
+comment1.params=
+comment1.target=Vozlisce\ getPrvi()
+comment2.params=
+comment2.target=LinEnPovSez()
+comment3.params=first
+comment3.target=void\ ZadnjiDoPrvi(Vozlisce)
+comment4.params=s
+comment4.target=void\ dodaj(java.lang.String)
+numComments=5

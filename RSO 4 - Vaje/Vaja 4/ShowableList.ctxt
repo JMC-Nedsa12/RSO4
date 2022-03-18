@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ShowableList
+comment0.text=\r\n\ interface\ ShowableList\r\n
+comment1.params=first
+comment1.target=void\ showSezLast2First(LinEnPovSez.Node)
+comment2.params=first
+comment2.target=void\ showSezFirst2Last(LinEnPovSez.Node)
+numComments=3

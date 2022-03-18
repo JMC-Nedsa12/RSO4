@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Naloga2
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n\ i\ a7\ a6\ a5\ a4\ a3
+comment2.target=void\ rekurzija(int,\ int,\ double,\ double,\ double,\ double,\ double)
+numComments=3

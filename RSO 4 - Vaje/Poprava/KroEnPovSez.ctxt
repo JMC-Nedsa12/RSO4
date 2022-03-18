@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=KroEnPovSez
+comment1.params=
+comment1.target=Element\ getPrvi_()
+comment2.params=
+comment2.target=KroEnPovSez()
+comment3.params=element
+comment3.target=void\ dodaj(int)
+comment4.params=
+comment4.target=int\ prestejElemente()
+numComments=5

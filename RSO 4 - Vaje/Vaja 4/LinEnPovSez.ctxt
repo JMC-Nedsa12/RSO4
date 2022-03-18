@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=LinEnPovSez
+comment1.params=
+comment1.target=LinEnPovSez.Node\ getPrvi()
+comment10.params=
+comment10.target=int\ pre\u0161tejDuplikate()
+comment11.params=
+comment11.target=void\ normaliziraj_()
+comment12.params=
+comment12.target=void\ normaliziraj()
+comment2.params=
+comment2.target=LinEnPovSez()
+comment3.params=first
+comment3.target=void\ showSezLast2First(LinEnPovSez.Node)
+comment4.params=first
+comment4.target=void\ showSezFirst2Last(LinEnPovSez.Node)
+comment5.params=element
+comment5.target=void\ dodaj_(char)
+comment6.params=element
+comment6.target=void\ dodaj(char)
+comment7.params=niz
+comment7.target=void\ dodaj(java.lang.String)
+comment8.params=
+comment8.target=boolean\ soDuplikati()
+comment9.params=
+comment9.target=int\ pre\u0161tejDuplicirane()
+numComments=13

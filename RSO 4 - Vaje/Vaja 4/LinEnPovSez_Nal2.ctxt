@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=LinEnPovSez_Nal2
+comment1.params=
+comment1.target=LinEnPovSez_Nal2.Node\ getPrvi()
+comment10.params=
+comment10.target=void\ normaliziraj()
+comment2.params=
+comment2.target=LinEnPovSez_Nal2()
+comment3.params=first
+comment3.target=java.lang.String\ showSezLast2First(LinEnPovSez_Nal2.Node)
+comment3.text=\r\n\ \ \ \ public\ String\ showSezLast2First_old(\ Node\ first\ ){\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ String\ seznam\="";//rekurzija\ povozi\ string\r\n\ \ \ \ \ \ \ \ if\ (\ first\ \!\=\ null){\r\n\ \ \ \ \ \ \ \ \ \ \ \ showSezLast2First(first.next);\r\n\ \ \ \ \ \ \ \ \ \ \ \ seznam+\=first.value;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ seznam;\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ String\ showSezFirst2Last_old(\ Node\ first\ ){\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ String\ seznam\="";\r\n\ \ \ \ \ \ \ \ if\ (\ first\ \!\=\ null){\r\n\ \ \ \ \ \ \ \ \ \ \ \ seznam+\=first.value;\r\n\ \ \ \ \ \ \ \ \ \ \ \ showSezFirst2Last(first.next);\r\n\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ seznam;\r\n\ \ \ \ }\r\n
+comment4.params=first
+comment4.target=java.lang.String\ showSezFirst2Last(LinEnPovSez_Nal2.Node)
+comment5.params=element
+comment5.target=void\ dodaj(char)
+comment6.params=niz
+comment6.target=void\ dodaj(java.lang.String)
+comment7.params=
+comment7.target=boolean\ soDuplikati()
+comment8.params=
+comment8.target=int\ pre\u0161tejDuplicirane()
+comment9.params=
+comment9.target=int\ pre\u0161tejDuplikate()
+numComments=11

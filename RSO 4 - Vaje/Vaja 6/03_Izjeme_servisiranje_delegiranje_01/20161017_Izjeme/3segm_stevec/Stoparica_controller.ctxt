@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Stoparica_controller
+comment1.params=
+comment1.target=void\ initialize()
+comment2.params=e
+comment2.target=void\ beginLap(javafx.event.ActionEvent)
+comment3.params=
+comment3.target=void\ update()
+comment4.params=e
+comment4.target=void\ reset(javafx.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ pause(javafx.event.ActionEvent)
+comment6.params=
+comment6.target=java.lang.String\ segmentsToString()
+numComments=7

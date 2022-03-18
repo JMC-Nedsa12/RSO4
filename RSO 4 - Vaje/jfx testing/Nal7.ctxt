@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Nal7
+comment1.params=
+comment1.target=void\ createLayers()
+comment2.params=
+comment2.target=void\ handleLayers()
+comment3.params=e
+comment3.target=void\ handle(javafx.scene.input.MouseEvent)
+comment4.params=
+comment4.target=void\ createButton()
+comment5.params=e
+comment5.target=void\ handle(javafx.event.ActionEvent)
+comment6.params=t0\ dolzina\ kot
+comment6.target=void\ drawTree(Tocka,\ double,\ double)
+comment7.params=
+comment7.target=void\ addLayers()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment9.params=primaryStage
+comment9.target=void\ start(javafx.stage.Stage)
+numComments=10

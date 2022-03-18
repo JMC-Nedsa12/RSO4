@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Zbirka
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Zbirka\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Zbirka()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Zbirka\r\n
+comment2.params=z
+comment2.target=void\ vstaviZapisvzbirko(Zapis)
+comment3.params=ime
+comment3.target=Zapis\ vrniZapis(java.lang.String)
+comment4.params=
+comment4.target=void\ sort()
+comment5.params=
+comment5.target=Zapis[]\ getZbirka()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=aa
+comment0.text=\r\n\ Write\ a\ description\ of\ JavaFX\ class\ aa\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ The\ start\ method\ is\ the\ main\ entry\ point\ for\ every\ JavaFX\ application.\ \r\n\ It\ is\ called\ after\ the\ init()\ method\ has\ returned\ and\ after\ \r\n\ the\ system\ is\ ready\ for\ the\ application\ to\ begin\ running.\r\n\r\n\ @param\ \ stage\ the\ primary\ stage\ for\ this\ application.\r\n
+comment2.params=event
+comment2.target=void\ buttonClick(javafx.event.ActionEvent)
+comment2.text=\r\n\ This\ will\ be\ executed\ when\ the\ button\ is\ clicked\r\n\ It\ increments\ the\ count\ by\ 1\r\n
+numComments=3
