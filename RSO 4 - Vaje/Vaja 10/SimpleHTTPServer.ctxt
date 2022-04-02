@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=SimpleHTTPServer
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=exchange
+comment2.target=void\ handleRequest(com.sun.net.httpserver.HttpExchange)
+comment3.params=exchange
+comment3.target=void\ handleGet(com.sun.net.httpserver.HttpExchange)
+comment4.params=exchange
+comment4.target=void\ printRequestInfo(com.sun.net.httpserver.HttpExchange)
+numComments=5

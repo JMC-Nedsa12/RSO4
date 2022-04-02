@@ -1,0 +1,17 @@
+pripravi certifikat:
+
+keytool -genkey -alias alias -keypass mypassword -keystore mykey.keystore -storepass mypassword
+
+
+    -genkey: required parameter
+    -alias: specify an alias name
+    -keypass: specify the password of private key
+    -keystore: specify the key file name
+    -storepass: specify the password of key
+	
+test1:   keytool -v -list -keystore .keystore                        /mypassword        
+test2:   keytool -list -keystore mykey.keystore -alias alias         /
+
+opomba: Pazi na password certifikatske shrambe.
+opomba: Kreirana datoteka mkey.keystore predstavlja certifikatsko shrambo,  v kateri se certifikat nahaja.
+opomba: V realnem projektubi uporabili certifikat  CA izdajatelja.
