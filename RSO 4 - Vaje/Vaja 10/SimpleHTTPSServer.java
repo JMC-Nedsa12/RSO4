@@ -61,7 +61,7 @@ public class SimpleHTTPSServer {
             SSLContext sslContext = SSLContext.getInstance("TLS");
 
             // initialise the keystore
-            char[] password = "mypassword".toCharArray();
+            char[] password = "password".toCharArray();
             KeyStore ks = KeyStore.getInstance("JKS");
             ///FileInputStream fis = new FileInputStream("testkey.jks"); 
             FileInputStream fis = new FileInputStream("mykey.keystore");

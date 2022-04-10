@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SQLFaker
+comment0.text=\r\n\ Faker\ za\ vnos\ 1500\ strank\ v\ remote\ SQL\ database\r\n\r\n\ @author\ JanTrsan\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n
+comment2.target=int\ rng(int)
+comment3.params=input
+comment3.target=java.lang.String\ encrypt(java.lang.String)
+numComments=4
