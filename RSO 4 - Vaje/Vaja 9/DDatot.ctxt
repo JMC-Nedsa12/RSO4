@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DDatot
+comment0.text=\r\n\ Objekt,\ shranjuje\ ime\ datoteke\ in\ njen\ hash\ diggest\r\n\r\n\ @author\ JanTrsan\r\n\ @version\ 1.0\r\n
+comment1.params=ime\ hash
+comment1.target=DDatot(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getImeDatoteke()
+comment3.params=
+comment3.target=java.lang.String\ getDiggest()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

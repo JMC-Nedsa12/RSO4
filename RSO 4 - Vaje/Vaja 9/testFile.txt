@@ -1,0 +1,16 @@
+To je testna datoteka brez kakršne koli pomenske vrednosti.
+Popoln namen tega besedila je dobiti datoteko na kateri bom preizkušal delovanje generiranja hashov datoteke.
+
+Naj izraz celica predstavlja prostorcek v pomnilniku, ki hrani stevilo tipa int ali kazalec.
+Nicelna celica naj bo celica z vsebino 0 oziroma NULL.
+Nicelna struktura naj bo struktura tipa S, ki vsebuje nicelno celico.
+Pozitivna celica naj bo celica tipa int, ki vsebuje pozitivno stevilo.
+Napisite funkcijo int steviloPozitivnih(T* t) ki vrne stevilo pozitivnih celic,
+ki jih je mogoce doseci preko kazalca t s pomocjo operatorjev *, ++ in . oziroma ->.
+Vsako celico morate steti natanko enkrat, cetudi je dosegljiva preko vec kazalcev. 
+Vsak kazalec razen kazalca t kaze v neko tabelo.
+V splosnem lahko vec kazalcev kaze v isto tabelo. Vsak kazalec razen kazalca t ima lahko vrednost NULL.
+Vse tabele v strukturi na pomnilniskem naslovu t in vse tabele, v katere kazejo kazalci v tej strukturi,
+se zakljucijo z nicelno celico oziroma strukturo.
+V funkciji lahko spreminjate vsebino celic, dosegljivih preko kazalca t.
+Podatke o lastnostih posameznih testnih primerov najdete v datoteki naloga3.c

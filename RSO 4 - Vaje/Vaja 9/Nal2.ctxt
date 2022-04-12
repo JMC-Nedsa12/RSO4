@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Nal2
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=filepath\ md
+comment2.target=java.lang.String\ checksum(java.lang.String,\ java.security.MessageDigest)
+numComments=3
