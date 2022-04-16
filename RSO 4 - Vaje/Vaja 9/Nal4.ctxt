@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Nal4
+comment0.text=\r\n\ Program\ lahko\ preveri\ ali\ se\ podan\ hash\ v\ datoteki\r\n\ ali\ kot\ string\ argument\ ujema\ s\ katerim\ od\ hashov\ znotraj\r\n\ datoteke.\ Program\ zmore\ generirati\ hash\ poljubne\ datoteke\r\n\ z\ metodo\ hashGen.\r\n\ \r\n\ @author\ JanTrsan\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=args
+comment2.target=void\ hashGen(java.lang.String[])
+comment3.params=filepath\ md
+comment3.target=java.lang.String\ checksum(java.lang.String,\ java.security.MessageDigest)
+numComments=4

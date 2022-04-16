@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Nal1
+comment0.text=\r\n\ Implementacija\ prve\ in\ tretje\ naloge.\ Ustvari\ kolekcijo\r\n\ zapisov\ DDatot\ in\ jo\ izpi\u0161e.\ Ob\ dodanem\ drugem\ arguentu,\ ki\ je\ hash\r\n\ lahko\ porgram\ izvede\ primerjavo,\ \u010De\ se\ hash\ nahaja\ znotraj\r\n\ dane\ datoteke.\r\n\r\n\ @author\ JanTrsan\r\n\ @version\ 1,0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

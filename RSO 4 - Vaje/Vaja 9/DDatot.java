@@ -18,6 +18,6 @@ public class DDatot{
     public String getDiggest(){return this.diggest;}
 
     public String toString(){ 
-        return ("ime programa: "+this.getImeDatoteke()+"       hash/diggest:"+this.getDiggest());
+        return ("ime programa: "+this.getImeDatoteke()+"       hash/diggest: "+this.getDiggest());
     }
 }
