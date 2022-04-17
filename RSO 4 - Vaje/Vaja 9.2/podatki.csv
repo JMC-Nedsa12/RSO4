@@ -1,0 +1,4 @@
+#,ime, priimek, ulica, hišna številka, mesto, poštna številka, opomba
+1,"Janez", "Novak","Vegova",4, "Ljubljana", 1000, "naslovnik ni znan, poslano mu je drugam"
+2,"Jožica","Termal","Kardeljeva ploščad",32,"Ljubljana",,"pošto prejema, pa ne odgovarja"
+3,"Jan","Tršan","G4B",4,"Ljubljana",1000,"Vaja 9.2"
