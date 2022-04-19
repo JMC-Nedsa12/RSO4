@@ -1,0 +1,37 @@
+/************
+*  demo generiran binarno datoteko integerjev (homogeno, tipizirano z int)
+*  nanjo zapiše zapredna števila od 0-499, ter jo zapre
+*/
+import java.io.*;
+
+public class 200_03_TestBinTipizirana {
+       
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)  {
+      
+    FileOutputStream foutput=null;
+    DataOutputStream data=null;
+    
+    try {
+        
+      foutput = new FileOutputStream("testOutput.bin");
+
+      // doda metode, ki med drugim omogoèajo zapis primitivnih tipov
+      // na datoteko
+      data = new DataOutputStream( foutput );
+ 
+      // zgeneriramo števila od 0 do 499 na datoteko
+      for (int i=0; i<500; i++) 
+              data.writeInt(i);
+      
+      foutput.close();   // zapremo datoteko
+ 
+    } catch (IOException ioe) {
+               System.out.println( "IO napaka: " + ioe ); 
+               
+    } 
+    } //main
+    
+} //class

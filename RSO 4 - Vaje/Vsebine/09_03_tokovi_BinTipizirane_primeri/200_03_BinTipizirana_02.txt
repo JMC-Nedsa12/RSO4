@@ -1,0 +1,34 @@
+/************
+*  demo prebere celotno vsebino datoteke, generirane s programom 200_03_TestBinTipizirana_01
+*  bodite pozorni na lovljenje konca datoteke
+*/
+import java.io.*;
+
+public class 200_03_TestBinTipizirana_02 {
+       
+    
+    public static void main(String arg[]) {
+    FileInputStream finput;
+    DataInputStream data;
+    try {
+      finput = new FileInputStream("testOutput.bin");
+      
+      // wrapper oz. ovoj (ovojnica), ki omogoèa branje primitivnega tipa z datoteke
+      data = new DataInputStream( finput );
+      
+      int i;
+
+      // neskonèna zanka, konèala se bo z izjemo, ko bo dosežena
+      // znaèka za konec datoteke
+      while ( true ) {
+         i = data.readInt();
+         System.out.println( "prebrano : " + i );
+      }
+    } catch (EOFException eof){
+         System.out.println( "dosežena oznaka EOF" ); 
+       }
+      catch (IOException ioe) { 
+            System.out.println( "IO napaka: " + ioe );}  
+  }
+    
+} //class
