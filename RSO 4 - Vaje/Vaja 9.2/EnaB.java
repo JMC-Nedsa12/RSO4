@@ -57,29 +57,54 @@ public class EnaB{
                 opomba+=values[j]+",";
             }
             opomba=opomba.substring(1,opomba.length()-2);
-            if (ime.length() <= imeLen){
-                try{
-                    dos.writeUTF(ime);
-                    nullWriter(imeLen-ime.length(),dos);
-                }catch(Exception e){System.out.println(e);}
-            }
-            System.out.println(ime);
-            System.out.println(priim);
-            System.out.println(ulica);
-            System.out.println(mesto);
-            System.out.println(opomba);
+            write(String.valueOf(i),3,fos);
+            write(ime,imeLen,fos);
+            write(priim,priimLen,fos);
+            write(ulica,ulicaLen,fos);
+            dos.writeLong(st);
+            write(mesto,mestoLen,fos);
+            dos.writeLong(posta);
+            write(opomba,opombaLen,fos);
+            dos.writeUTF("\n");
             opomba="";
+            i++;
         }
 
     }
+
     public static void nullWriter(int n, DataOutputStream dos) throws Exception{
-        for (int i=0;i<n;i++){
-            dos.write(null);
+        if (n%2!=0)
+            n++;
+        for (int i=0;i<n/2;i++){
+            dos.writeChar(0);
         }
         return;
     }
 
+    public static void write (String data, int size, FileOutputStream fos) throws Exception {     
+        byte[] bytes = data.getBytes();
+        fos.write(bytes); 
+        size = size - bytes.length;
+        for (int i = 0; i < size; i++) {
+            fos.write(0); 
+        }    
+    }
+
     public static String find (File file, int n){
         return "";
+    }
+
+    public static void test() throws Exception{
+        File input = new File ("podatki.csv");
+        BufferedReader br = new BufferedReader(new FileReader(input));
+        FileOutputStream fos = new FileOutputStream("test.txt");
+        DataOutputStream dos = new DataOutputStream(fos);
+        
+        long cif= 21830;
+        
+        dos.writeLong(2353);
+        dos.writeUTF("\n");
+        dos.writeInt(3910);
+        dos.writeLong(cif);
     }
 }

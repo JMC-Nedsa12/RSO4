@@ -9,48 +9,472 @@ table, th, td {
 
 <h2>HTML tabela generirana iz csv datoteke</h2>
 
-
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">#</th>
-<th title="Field #2">ime</th>
-<th title="Field #3">priimek</th>
-<th title="Field #4">ulica</th>
-<th title="Field #5">hišna številka</th>
-<th title="Field #6">mesto</th>
-<th title="Field #7">poštna številka</th>
-<th title="Field #8">opomba</th>
-</tr></thead>
-<tbody><tr>
-<td align="right">1</td>
-<td>Janez</td>
-<td>Novak</td>
-<td>Vegova</td>
-<td align="right">4</td>
-<td>Ljubljana</td>
-<td align="right"> 1000</td>
-<td>naslovnik ni znan, poslano mu je drugam</td>
-</tr>
-<tr>
-<td align="right">2</td>
-<td>Jožica</td>
-<td>Termal</td>
-<td>Kardeljeva ploščad</td>
-<td align="right">32</td>
-<td>Ljubljana</td>
-<td align="right"></td>
-<td>pošto prejema, pa ne odgovarja</td>
-</tr>
-<tr>
-<td align="right">3</td>
-<td>Jan</td>
-<td>Tršan</td>
-<td>G4B</td>
-<td align="right">4</td>
-<td>Ljubljana</td>
-<td align="right">1000</td>
-<td>Vaja 9.2</td>
-</tr>
-</tbody></table>
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>ime</th>
+      <th> priimek</th>
+      <th> ulica</th>
+      <th> hišna številka</th>
+      <th> mesto</th>
+      <th> poštna številka</th>
+      <th> opomba</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Jan</td>
+      <td>Trsan</td>
+      <td>G4B</td>
+      <td>4</td>
+      <td>Ljubljana</td>
+      <td>1000</td>
+      <td>Vaja 9.2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Janez</td>
+      <td>Novak</td>
+      <td>Vegova</td>
+      <td>4</td>
+      <td>Ljubljana</td>
+      <td>1000</td>
+      <td>naslovnik ni znan, poslano mu je drugam</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Jožica</td>
+      <td>Termal</td>
+      <td>Kardeljeva ploščad</td>
+      <td>32</td>
+      <td>Ljubljana</td>
+      <td></td>
+      <td>pošto prejema, pa ne odgovarja</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ferdo</td>
+      <td>Pis</td>
+      <td>Piscanckovo nabrezje</td>
+      <td>7</td>
+      <td>Ljubljana</td>
+      <td>1000</td>
+      <td>rad ima surova jabolka</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Nestore</td>
+      <td>Greco</td>
+      <td>Via Mirco 635</td>
+      <td>48</td>
+      <td>Bellini lido</td>
+      <td>481</td>
+      <td>rad pada po stopnicah</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Caio</td>
+      <td>Battaglia</td>
+      <td>Incrocio Vitale 5, Appartamento 42</td>
+      <td>81</td>
+      <td>San Baldassarre del friuli</td>
+      <td>8945</td>
+      <td>hodi na faks, a ne ve kaj dela</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Clara</td>
+      <td>Zapata</td>
+      <td>Vía Diana 6 Puerta 397</td>
+      <td>63</td>
+      <td>Zaragoza</td>
+      <td>2356</td>
+      <td>rad vozi avto</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Lola</td>
+      <td>Simon</td>
+      <td>3 Avenue Du Sommerard</td>
+      <td>79</td>
+      <td>Courbevoie</td>
+      <td>5479</td>
+      <td>izgubljen, a najden</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Oscar</td>
+      <td>Gutkowski</td>
+      <td>27108 Tanesha Crossroad</td>
+      <td>32</td>
+      <td>Bufordburgh</td>
+      <td>4334</td>
+      <td>o tem nima blage veze, a se vseeno trudi z navdušenjem</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Alexander</td>
+      <td>Casper</td>
+      <td>4944 Raymond Ports</td>
+      <td>30</td>
+      <td>New Merlyn</td>
+      <td>2331</td>
+      <td>je bil šel v tujino in se ni vrnil</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Elsa</td>
+      <td>Guerra</td>
+      <td>Piazza Barone 2</td>
+      <td>67</td>
+      <td>Ferraro sardo</td>
+      <td>1870</td>
+      <td>zanimivo ji je, da long vrednosti zapiše na čuden način in ne direktno kot vrednost</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Alfonso</td>
+      <td>Perales</td>
+      <td>Cuesta Gregorio Quiñones 01</td>
+      <td>14</td>
+      <td>El Prat de LLobregat</td>
+      <td>1616</td>
+      <td>ima zaseben odnos s pismonošo</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Jules</td>
+      <td>Royer</td>
+      <td>1 Rue de la Harpe</td>
+      <td>59</td>
+      <td>Bourges</td>
+      <td>3114</td>
+      <td>se zateka v svoje misli in je pogosto odsoten</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Maynard</td>
+      <td>Champlin</td>
+      <td>033 Gino Views</td>
+      <td>48</td>
+      <td>Port Deedeemouth</td>
+      <td>7604</td>
+      <td>Ne</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Samuel</td>
+      <td>Larkin</td>
+      <td>9723 Sanford Fort</td>
+      <td>93</td>
+      <td>Darrinview</td>
+      <td>5685</td>
+      <td>Kot mlad ostal hrom</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Lucia</td>
+      <td>Marino</td>
+      <td>Piazza Germano 74</td>
+      <td>95</td>
+      <td>Sesto Penelope lido</td>
+      <td>2752</td>
+      <td>Išče novo zaposlitev</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Sonia</td>
+      <td>Segovia</td>
+      <td>Torrente Ana María 3</td>
+      <td>78</td>
+      <td>Viladecans</td>
+      <td>6437</td>
+      <td>V prostem času lovi želve, ribe in delfine</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Léa</td>
+      <td>Dvnis</td>
+      <td>9034 Quai des Panoramas</td>
+      <td>14</td>
+      <td>Dijon</td>
+      <td>3404</td>
+      <td>Pocasi mu zmanjkuje idej</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Kati</td>
+      <td>Blanda</td>
+      <td>60831 Christian Locks</td>
+      <td>88</td>
+      <td>Erickmouth</td>
+      <td>3764</td>
+      <td>Dela tri službe, zato je pogosto odsoten</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Annamaria</td>
+      <td>Orn</td>
+      <td>00666 Heathcote Fort</td>
+      <td>86</td>
+      <td>Bikini Bottom</td>
+      <td>7298</td>
+      <td>Živi v ananasu pod morsko gladino</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Omar</td>
+      <td>Damico</td>
+      <td>Strada Santoro 32</td>
+      <td>76</td>
+      <td>Borgo Marina</td>
+      <td>3074</td>
+      <td>Veliko svojega časa preživi v delavnici na drugem naslovu</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Clara</td>
+      <td>Montaño</td>
+      <td>Vía Josefina Lucero, 68 Puerta 619</td>
+      <td>74</td>
+      <td>Ferrol</td>
+      <td>8939</td>
+      <td>Koleno</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Antoine</td>
+      <td>Brunet</td>
+      <td>9 Rue de Caumartin</td>
+      <td>46</td>
+      <td>Mulhouse</td>
+      <td>2668</td>
+      <td>Včasih delal kot zdravnik v umobolnici</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Jonah</td>
+      <td>Altenwerth</td>
+      <td>825 Douglas Freeway</td>
+      <td>71</td>
+      <td>New Cortney</td>
+      <td>8311</td>
+      <td>Mogoče</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Rigoberto</td>
+      <td>Trantow</td>
+      <td>2028 Hackett Estate</td>
+      <td>95</td>
+      <td>West Royal</td>
+      <td>7461</td>
+      <td>Hodi, hodi, a nikamor ne pride</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Umberto</td>
+      <td>Costantin</td>
+      <td>Via Palmieri 51, Piano 4</td>
+      <td>54</td>
+      <td>Ferdinando umbro</td>
+      <td>1324</td>
+      <td>Ima udomačeno muho</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Anita</td>
+      <td>Atencio</td>
+      <td>Avenida Armando Galván s/n. Esc. 117</td>
+      <td>61</td>
+      <td>Salamanca</td>
+      <td>4126</td>
+      <td>Naročen na akupunkturno masažo</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Zoe</td>
+      <td>Le gall</td>
+      <td>8434 Avenue d'Alésia</td>
+      <td>43</td>
+      <td>Asnières-sur-Seine</td>
+      <td>1974</td>
+      <td>Po stanovanju hodi v nogavicah</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Hipolito</td>
+      <td>Lindgren</td>
+      <td>6680 Kuhlman Locks</td>
+      <td>28</td>
+      <td>Willmsport</td>
+      <td>6647</td>
+      <td>Spi z vzglavnikom pod nogami</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Alfredia</td>
+      <td>Collier</td>
+      <td>804 Mirta Pines</td>
+      <td>58</td>
+      <td>West Sharolyn</td>
+      <td>5438</td>
+      <td>Mala terasa sredi Ljubljane</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Arduino</td>
+      <td>Colombo</td>
+      <td>Piazza Pagano 703</td>
+      <td>13</td>
+      <td>Ubaldo terme</td>
+      <td>6692</td>
+      <td>Če mu zmanjka idej, gre poslušat glasbo</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Germán</td>
+      <td>Sáenz</td>
+      <td>Ferrocarril Fernando Delacrúz, 11 Puerta 350</td>
+      <td>65</td>
+      <td>Jerez de la Frontera</td>
+      <td>4768</td>
+      <td>Dober izvajalec je William Black</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Jules</td>
+      <td>Bourgeois</td>
+      <td>6589 Impasse Zadkine</td>
+      <td>89</td>
+      <td>Paris</td>
+      <td>8354</td>
+      <td>Tudi Illenium je vreden poslušanja</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>Jewel</td>
+      <td>Lesch</td>
+      <td>969 Tremblay Villages</td>
+      <td>22</td>
+      <td>East Leahfort</td>
+      <td>4825</td>
+      <td>Ginko Biloba</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>Austin</td>
+      <td>Cummings</td>
+      <td>864 Leeanne Motorway</td>
+      <td>39</td>
+      <td>Mannburgh</td>
+      <td>1338</td>
+      <td>Slovenski navdušenec nad tujimi državami, patriot</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>Antonino</td>
+      <td>De rosa</td>
+      <td>Borgo Odone 689</td>
+      <td>43</td>
+      <td>Settimo Ivonne</td>
+      <td>6670</td>
+      <td>Je navdušenec nad avtomobili</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>Timoteo</td>
+      <td>Domínquez</td>
+      <td>Explanada María Eugenia 3</td>
+      <td>49</td>
+      <td>San Sebastián</td>
+      <td>3972</td>
+      <td>Rad ima to, kar sovraži</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>Nathan</td>
+      <td>Fontaine</td>
+      <td>312 Boulevard du Faubourg Saint-Honoré</td>
+      <td>61</td>
+      <td>Reims</td>
+      <td>2064</td>
+      <td>Vozi japonski avto</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Jill</td>
+      <td>Graham</td>
+      <td>45300 Brown Corner</td>
+      <td>80</td>
+      <td>Rutherfordville</td>
+      <td>4458</td>
+      <td>Ima izpit za čoln</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Jeremy</td>
+      <td>Littel</td>
+      <td>3035 Ullrich Mission</td>
+      <td>49</td>
+      <td>Lake Taton</td>
+      <td>2161</td>
+      <td>Poklicni vrvohodec</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Arduino</td>
+      <td>Donati</td>
+      <td>Contrada Martini 85</td>
+      <td>37</td>
+      <td>Sesto Tosca lido</td>
+      <td>7969</td>
+      <td>Po poklicu je zabušant</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Estela</td>
+      <td>Cervantes</td>
+      <td>Poblado Inés 77</td>
+      <td>20</td>
+      <td>Torrejón de Ardoz</td>
+      <td>5381</td>
+      <td>Namesto, da dela kaj pametnejšega, raje piše nepomembne opombe</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Théo</td>
+      <td>Guillaume</td>
+      <td>3578 Impasse d'Abbeville</td>
+      <td>40</td>
+      <td>Clichy</td>
+      <td>4992</td>
+      <td>Zaljubljen v idealizirano podobo samega sebe</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Kenton</td>
+      <td>Dicki</td>
+      <td>297 Deandrea Junctions</td>
+      <td>47</td>
+      <td>Angelicaberg</td>
+      <td>2039</td>
+      <td>Obstaja</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Minna</td>
+      <td>Wyman</td>
+      <td>67382 Pfannerstill Loop</td>
+      <td>48</td>
+      <td>Breitenberghaven</td>
+      <td>5231</td>
+      <td>Upa, da je z opombami poskrbel za vsaj malo zabave</td>
+    </tr>
+  </tbody>
+</table>
 
 </body>
 </html>
