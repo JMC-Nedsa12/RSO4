@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Zapis
+comment0.text=\r\n\ Objekt\ strukture\ iz\ csv\r\n\r\n\ @author\ JanTrsan\r\n\ @version\ 1.0\r\n
+comment1.params=ime\ priim\ ulica\ st\ mesto\ posta\ opomba
+comment1.target=Zapis(java.lang.String,\ java.lang.String,\ java.lang.String,\ long,\ java.lang.String,\ long,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Zapis\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

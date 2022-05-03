@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=EnaC
+comment0.text=\r\n\ Najde\ zapis,\ ki\ ustreza\ podani\ zaporedni\ \u0161tevilki\r\n\r\n\ @author\ JanTrsan\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=file\ n\ fis
+comment2.target=void\ find(java.io.File,\ int,\ java.io.FileInputStream)
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=EnaB
+comment0.text=\r\n\ Pretvori\ csv\ v\ binarno\ tipizirano\ datoteko.\r\n\r\n\ @author\ JanTrsan\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=list
+comment2.target=void\ nalC(java.util.ArrayList)
+comment3.params=list\ ime
+comment3.target=void\ nalD(java.util.ArrayList,\ java.lang.String)
+comment4.params=list\ ime
+comment4.target=void\ nalD_(java.util.ArrayList,\ java.lang.String)
+comment5.params=fileName
+comment5.target=void\ nalE(java.lang.String)
+numComments=6

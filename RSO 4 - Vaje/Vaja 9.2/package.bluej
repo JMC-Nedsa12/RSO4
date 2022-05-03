@@ -2,9 +2,9 @@
 dependency1.from=Tester
 dependency1.to=EnaC
 dependency1.type=UsesDependency
-editor.fx.0.height=686
-editor.fx.0.width=660
-editor.fx.0.x=626
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=93
 objectbench.width=761
