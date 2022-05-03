@@ -13,6 +13,7 @@ public class EnaC{
         int n = Integer.valueOf(args[1]);
         find(file,n,fis);
         
+        fis.close();
     }
     
     public static void find (File file, int n,FileInputStream fis) throws Exception{
@@ -56,5 +57,7 @@ public class EnaC{
         System.out.println(mesto);
         System.out.println(posta);
         System.out.println(opomba);
+        
+        dis.close();
     }
 }

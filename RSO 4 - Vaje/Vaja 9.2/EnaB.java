@@ -69,7 +69,9 @@ public class EnaB{
             opomba="";
             i++;
         }
-
+        dos.close();
+        fos.close();
+        br.close();
     }
 
     public static void nullWriter(int n, DataOutputStream dos) throws Exception{
@@ -83,7 +85,14 @@ public class EnaB{
 
     public static void write (String data, int size, FileOutputStream fos) throws Exception {     
         byte[] bytes = data.getBytes();
-        fos.write(bytes); 
+        if (bytes.length<size)
+            fos.write(bytes);
+        else{
+            for(int i=0;i<size;i++){
+                fos.write(bytes[i]);
+            }
+            return;
+        }
         size = size - bytes.length;
         for (int i = 0; i < size; i++) {
             fos.write(0); 
