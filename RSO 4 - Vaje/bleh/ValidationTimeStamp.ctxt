@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ValidationTimeStamp
+comment0.text=\r\n\ This\ class\ wraps\ the\ TSAClient\ and\ the\ work\ that\ has\ to\ be\ done\ with\ it.\ Like\ Adding\ Signed\r\n\ TimeStamps\ to\ a\ signature,\ or\ creating\ a\ CMS\ timestamp\ attribute\ (with\ a\ signed\ timestamp)\r\n\r\n\ @author\ Others\r\n\ @author\ Alexis\ Suter\r\n
+comment1.params=tsaUrl
+comment1.target=ValidationTimeStamp(java.lang.String)
+comment1.text=\r\n\ @param\ tsaUrl\ The\ url\ where\ TS-Request\ will\ be\ done.\r\n\ @throws\ NoSuchAlgorithmException\r\n\ @throws\ MalformedURLException\r\n
+comment2.params=content
+comment2.target=byte[]\ getTimeStampToken(java.io.InputStream)
+comment2.text=\r\n\ Creates\ a\ signed\ timestamp\ token\ by\ the\ given\ input\ stream.\r\n\ \r\n\ @param\ content\ InputStream\ of\ the\ content\ to\ sign\r\n\ @return\ the\ byte[]\ of\ the\ timestamp\ token\r\n\ @throws\ IOException\r\n
+comment3.params=signedData
+comment3.target=org.bouncycastle.cms.CMSSignedData\ addSignedTimeStamp(org.bouncycastle.cms.CMSSignedData)
+comment3.text=\r\n\ Extend\ cms\ signed\ data\ with\ TimeStamp\ first\ or\ to\ all\ signers\r\n\r\n\ @param\ signedData\ Generated\ CMS\ signed\ data\r\n\ @return\ CMSSignedData\ Extended\ CMS\ signed\ data\r\n\ @throws\ IOException\r\n
+comment4.params=signer
+comment4.target=org.bouncycastle.cms.SignerInformation\ signTimeStamp(org.bouncycastle.cms.SignerInformation)
+comment4.text=\r\n\ Extend\ CMS\ Signer\ Information\ with\ the\ TimeStampToken\ into\ the\ unsigned\ Attributes.\r\n\r\n\ @param\ signer\ information\ about\ signer\r\n\ @return\ information\ about\ SignerInformation\r\n\ @throws\ IOException\r\n
+numComments=5

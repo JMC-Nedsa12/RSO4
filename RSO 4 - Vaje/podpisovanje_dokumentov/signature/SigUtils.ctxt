@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=SigUtils
+comment0.text=\r\n\ Utility\ class\ for\ the\ signature\ /\ timestamp\ examples.\r\n\ \r\n\ @author\ Tilman\ Hausherr\r\n
+comment1.params=
+comment1.target=SigUtils()
+comment10.params=certificatesStore\ certFromSignedData\ signDate
+comment10.target=void\ verifyCertificateChain(org.bouncycastle.util.Store,\ java.security.cert.X509Certificate,\ java.util.Date)
+comment10.text=\r\n\ Verify\ the\ certificate\ chain\ up\ to\ the\ root,\ including\ OCSP\ or\ CRL.\ However\ this\ does\ not\r\n\ test\ whether\ the\ root\ certificate\ is\ in\ a\ trusted\ list.<br><br>\r\n\ Please\ post\ bad\ PDF\ files\ that\ succeed\ and\ good\ PDF\ files\ that\ fail\ in\r\n\ <a\ href\="https\://issues.apache.org/jira/browse/PDFBOX-3017">PDFBOX-3017</a>.\r\n\r\n\ @param\ certificatesStore\r\n\ @param\ certFromSignedData\r\n\ @param\ signDate\r\n\ @throws\ CertificateVerificationException\r\n\ @throws\ CertificateException\r\n
+comment11.params=tsaUrl
+comment11.target=java.security.cert.X509Certificate\ getTsaCertificate(java.lang.String)
+comment11.text=\r\n\ Get\ certificate\ of\ a\ TSA.\r\n\ \r\n\ @param\ tsaUrl\ URL\r\n\ @return\ the\ X.509\ certificate.\r\n\r\n\ @throws\ GeneralSecurityException\r\n\ @throws\ IOException\ \r\n
+comment12.params=timeStampToken
+comment12.target=java.security.cert.X509Certificate\ getCertificateFromTimeStampToken(org.bouncycastle.tsp.TimeStampToken)
+comment12.text=\r\n\ Extract\ X.509\ certificate\ from\ a\ timestamp\r\n\ @param\ timeStampToken\r\n\ @return\ the\ X.509\ certificate.\r\n\ @throws\ CertificateException\ \r\n
+comment2.params=doc
+comment2.target=int\ getMDPPermission(org.apache.pdfbox.pdmodel.PDDocument)
+comment2.text=\r\n\ Get\ the\ access\ permissions\ granted\ for\ this\ document\ in\ the\ DocMDP\ transform\ parameters\r\n\ dictionary.\ Details\ are\ described\ in\ the\ table\ "Entries\ in\ the\ DocMDP\ transform\ parameters\r\n\ dictionary"\ in\ the\ PDF\ specification.\r\n\r\n\ @param\ doc\ document.\r\n\ @return\ the\ permission\ value.\ 0\ means\ no\ DocMDP\ transform\ parameters\ dictionary\ exists.\ Other\r\n\ return\ values\ are\ 1,\ 2\ or\ 3.\ 2\ is\ also\ returned\ if\ the\ DocMDP\ transform\ parameters\ dictionary\r\n\ is\ found\ but\ did\ not\ contain\ a\ /P\ entry,\ or\ if\ the\ value\ is\ outside\ the\ valid\ range.\r\n
+comment3.params=doc\ signature\ accessPermissions
+comment3.target=void\ setMDPPermission(org.apache.pdfbox.pdmodel.PDDocument,\ org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature,\ int)
+comment3.text=\r\n\ Set\ the\ "modification\ detection\ and\ prevention"\ permissions\ granted\ for\ this\ document\ in\ the\r\n\ DocMDP\ transform\ parameters\ dictionary.\ Details\ are\ described\ in\ the\ table\ "Entries\ in\ the\r\n\ DocMDP\ transform\ parameters\ dictionary"\ in\ the\ PDF\ specification.\r\n\r\n\ @param\ doc\ The\ document.\r\n\ @param\ signature\ The\ signature\ object.\r\n\ @param\ accessPermissions\ The\ permission\ value\ (1,\ 2\ or\ 3).\r\n\r\n\ @throws\ IOException\ if\ a\ signature\ exists.\r\n
+comment4.params=x509Certificate
+comment4.target=void\ checkCertificateUsage(java.security.cert.X509Certificate)
+comment4.text=\r\n\ Log\ if\ the\ certificate\ is\ not\ valid\ for\ signature\ usage.\ Doing\ this\r\n\ anyway\ results\ in\ Adobe\ Reader\ failing\ to\ validate\ the\ PDF.\r\n\r\n\ @param\ x509Certificate\ \r\n\ @throws\ java.security.cert.CertificateParsingException\ \r\n
+comment5.params=x509Certificate
+comment5.target=void\ checkTimeStampCertificateUsage(java.security.cert.X509Certificate)
+comment5.text=\r\n\ Log\ if\ the\ certificate\ is\ not\ valid\ for\ timestamping.\r\n\r\n\ @param\ x509Certificate\ \r\n\ @throws\ java.security.cert.CertificateParsingException\ \r\n
+comment6.params=x509Certificate
+comment6.target=void\ checkResponderCertificateUsage(java.security.cert.X509Certificate)
+comment6.text=\r\n\ Log\ if\ the\ certificate\ is\ not\ valid\ for\ responding.\r\n\r\n\ @param\ x509Certificate\ \r\n\ @throws\ java.security.cert.CertificateParsingException\ \r\n
+comment7.params=document
+comment7.target=org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature\ getLastRelevantSignature(org.apache.pdfbox.pdmodel.PDDocument)
+comment7.text=\r\n\ Gets\ the\ last\ relevant\ signature\ in\ the\ document,\ i.e.\ the\ one\ with\ the\ highest\ offset.\r\n\ \r\n\ @param\ document\ to\ get\ its\ last\ signature\r\n\ @return\ last\ signature\ or\ null\ when\ none\ found\r\n
+comment8.params=signerInformation
+comment8.target=org.bouncycastle.tsp.TimeStampToken\ extractTimeStampTokenFromSignerInformation(org.bouncycastle.cms.SignerInformation)
+comment9.params=timeStampToken
+comment9.target=void\ validateTimestampToken(org.bouncycastle.tsp.TimeStampToken)
+numComments=13

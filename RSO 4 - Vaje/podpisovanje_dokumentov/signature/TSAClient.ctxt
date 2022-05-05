@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TSAClient
+comment0.text=\r\n\ Time\ Stamping\ Authority\ (TSA)\ Client\ [RFC\ 3161].\r\n\ @author\ Vakhtang\ Koroghlishvili\r\n\ @author\ John\ Hewson\r\n
+comment1.params=url\ username\ password\ digest
+comment1.target=TSAClient(java.net.URL,\ java.lang.String,\ java.lang.String,\ java.security.MessageDigest)
+comment1.text=\r\n\r\n\ @param\ url\ the\ URL\ of\ the\ TSA\ service\r\n\ @param\ username\ user\ name\ of\ TSA\r\n\ @param\ password\ password\ of\ TSA\r\n\ @param\ digest\ the\ message\ digest\ to\ use\r\n
+comment2.params=content
+comment2.target=org.bouncycastle.tsp.TimeStampToken\ getTimeStampToken(java.io.InputStream)
+comment2.text=\r\n\r\n\ @param\ content\r\n\ @return\ the\ time\ stamp\ token\r\n\ @throws\ IOException\ if\ there\ was\ an\ error\ with\ the\ connection\ or\ data\ from\ the\ TSA\ server,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ or\ if\ the\ time\ stamp\ response\ could\ not\ be\ validated\r\n
+comment3.params=request
+comment3.target=byte[]\ getTSAResponse(byte[])
+numComments=4

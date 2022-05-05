@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CertificateVerificationException
+comment0.text=\r\n\ Copied\ from\ Apache\ CXF\ 2.4.9,\ initial\ version\:\r\n\ https\://svn.apache.org/repos/asf/cxf/tags/cxf-2.4.9/distribution/src/main/release/samples/sts_issue_operation/src/main/java/demo/sts/provider/cert/\r\n\ \r\n
+comment1.params=message\ cause
+comment1.target=CertificateVerificationException(java.lang.String,\ java.lang.Throwable)
+comment2.params=message
+comment2.target=CertificateVerificationException(java.lang.String)
+numComments=3

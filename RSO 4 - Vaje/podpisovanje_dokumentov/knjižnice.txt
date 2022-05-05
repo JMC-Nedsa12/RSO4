@@ -1,0 +1,32 @@
+Alpha release for PDFBox 3.0.0 — 3.0.0-alpha2
+
+  libraries : pdfbox, fontbox
+
+  dependencies:
+     
+    Bouncy Castle 1.69
+    Apache Commons Logging 1.2
+    picocli 4.6.1
+
+
+
+https://software.sil.org/fonts/
+
+---
+https://svn.apache.org/viewvc/pdfbox/trunk/examples/src/main/java/org/apache/pdfbox/examples/
+
+//--------------------- trunc:
+   https://svn.apache.org/viewvc/pdfbox/trunk/examples/src/main/java/org/apache/pdfbox/examples/
+
+//---------3.0.alpha
+https://svn.apache.org/viewvc/pdfbox/tags/3.0.0-alpha2/examples/src/main/java/org/apache/pdfbox/examples/
+
+
+-------------------------------------------------------- https://jar-download.com/ ---------
+
+https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on/1.70
+https://mvnrepository.com/artifact/info.picocli/picocli/4.6.3
+
+
+
+https://svn.apache.org/repos/asf/

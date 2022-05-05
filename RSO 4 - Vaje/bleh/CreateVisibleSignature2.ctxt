@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=CreateVisibleSignature2
+comment0.text=\r\n\ This\ is\ a\ second\ example\ for\ visual\ signing\ a\ pdf.\ It\ doesn't\ use\ the\ "design\ pattern"\ influenced\r\n\ PDVisibleSignDesigner,\ and\ doesn't\ create\ its\ complex\ multilevel\ forms\ described\ in\ the\ Adobe\r\n\ document\r\n\ <a\ href\="https\://www.adobe.com/content/dam/acom/en/devnet/acrobat/pdfs/PPKAppearances.pdf">Digital\r\n\ Signature\ Appearances</a>,\ because\ this\ isn't\ required\ by\ the\ PDF\ specification.\ See\ the\r\n\ discussion\ in\ December\ 2017\ in\ PDFBOX-3198.\r\n\r\n\ @author\ Vakhtang\ Koroghlishvili\r\n\ @author\ Tilman\ Hausherr\r\n
+comment1.params=keystore\ pin
+comment1.target=CreateVisibleSignature2(java.security.KeyStore,\ char[])
+comment1.text=\r\n\ Initialize\ the\ signature\ creator\ with\ a\ keystore\ (pkcs12)\ and\ pin\ that\r\n\ should\ be\ used\ for\ the\ signature.\r\n\r\n\ @param\ keystore\ is\ a\ pkcs12\ keystore.\r\n\ @param\ pin\ is\ the\ pin\ for\ the\ keystore\ /\ private\ key\r\n\ @throws\ KeyStoreException\ if\ the\ keystore\ has\ not\ been\ initialized\ (loaded)\r\n\ @throws\ NoSuchAlgorithmException\ if\ the\ algorithm\ for\ recovering\ the\ key\ cannot\ be\ found\r\n\ @throws\ UnrecoverableKeyException\ if\ the\ given\ password\ is\ wrong\r\n\ @throws\ CertificateException\ if\ the\ certificate\ is\ not\ valid\ as\ signing\ time\r\n\ @throws\ IOException\ if\ no\ certificate\ could\ be\ found\r\n
+comment10.params=acroForm\ sigFieldName
+comment10.target=org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature\ findExistingSignature(org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm,\ java.lang.String)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment11.text=\r\n\ Arguments\ are\r\n\ [0]\ key\ store\r\n\ [1]\ pin\r\n\ [2]\ document\ that\ will\ be\ signed\r\n\ [3]\ image\ of\ visible\ signature\r\n\r\n\ @param\ args\r\n\ @throws\ java.security.KeyStoreException\r\n\ @throws\ java.security.cert.CertificateException\r\n\ @throws\ java.io.IOException\r\n\ @throws\ java.security.NoSuchAlgorithmException\r\n\ @throws\ java.security.UnrecoverableKeyException\r\n
+comment12.params=
+comment12.target=void\ usage()
+comment12.text=\r\n\ This\ will\ print\ the\ usage\ for\ this\ program.\r\n
+comment2.params=
+comment2.target=java.io.File\ getImageFile()
+comment3.params=imageFile
+comment3.target=void\ setImageFile(java.io.File)
+comment4.params=
+comment4.target=boolean\ isLateExternalSigning()
+comment5.params=lateExternalSigning
+comment5.target=void\ setLateExternalSigning(boolean)
+comment5.text=\r\n\ Set\ late\ external\ signing.\ Enable\ this\ if\ you\ want\ to\ activate\ the\ demo\ code\ where\ the\r\n\ signature\ is\ kept\ and\ added\ in\ an\ extra\ step\ without\ using\ PDFBox\ methods.\ This\ is\ disabled\r\n\ by\ default.\r\n\r\n\ @param\ lateExternalSigning\r\n
+comment6.params=inputFile\ signedFile\ humanRect\ tsaUrl
+comment6.target=void\ signPDF(java.io.File,\ java.io.File,\ java.awt.geom.Rectangle2D,\ java.lang.String)
+comment6.text=\r\n\ Sign\ pdf\ file\ and\ create\ new\ file\ that\ ends\ with\ "_signed.pdf".\r\n\r\n\ @param\ inputFile\ The\ source\ pdf\ document\ file.\r\n\ @param\ signedFile\ The\ file\ to\ be\ signed.\r\n\ @param\ humanRect\ rectangle\ from\ a\ human\ viewpoint\ (coordinates\ start\ at\ top\ left)\r\n\ @param\ tsaUrl\ optional\ TSA\ url\r\n\ @throws\ IOException\r\n
+comment7.params=inputFile\ signedFile\ humanRect\ tsaUrl\ signatureFieldName
+comment7.target=void\ signPDF(java.io.File,\ java.io.File,\ java.awt.geom.Rectangle2D,\ java.lang.String,\ java.lang.String)
+comment7.text=\r\n\ Sign\ pdf\ file\ and\ create\ new\ file\ that\ ends\ with\ "_signed.pdf".\r\n\r\n\ @param\ inputFile\ The\ source\ pdf\ document\ file.\r\n\ @param\ signedFile\ The\ file\ to\ be\ signed.\r\n\ @param\ humanRect\ rectangle\ from\ a\ human\ viewpoint\ (coordinates\ start\ at\ top\ left)\r\n\ @param\ tsaUrl\ optional\ TSA\ url\r\n\ @param\ signatureFieldName\ optional\ name\ of\ an\ existing\ (unsigned)\ signature\ field\r\n\ @throws\ IOException\r\n
+comment8.params=doc\ humanRect
+comment8.target=org.apache.pdfbox.pdmodel.common.PDRectangle\ createSignatureRectangle(org.apache.pdfbox.pdmodel.PDDocument,\ java.awt.geom.Rectangle2D)
+comment9.params=srcDoc\ pageNum\ rect\ signature
+comment9.target=java.io.InputStream\ createVisualSignatureTemplate(org.apache.pdfbox.pdmodel.PDDocument,\ int,\ org.apache.pdfbox.pdmodel.common.PDRectangle,\ org.apache.pdfbox.pdmodel.interactive.digitalsignature.PDSignature)
+numComments=13

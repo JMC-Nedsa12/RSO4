@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=CertificateVerifier
+comment0.text=\r\n\ Copied\ from\ Apache\ CXF\ 2.4.9,\ initial\ version\:\r\n\ https\://svn.apache.org/repos/asf/cxf/tags/cxf-2.4.9/distribution/src/main/release/samples/sts_issue_operation/src/main/java/demo/sts/provider/cert/\r\n\ \r\n
+comment1.params=
+comment1.target=CertificateVerifier()
+comment2.params=cert\ additionalCerts\ verifySelfSignedCert\ signDate
+comment2.target=java.security.cert.PKIXCertPathBuilderResult\ verifyCertificate(java.security.cert.X509Certificate,\ java.util.Set,\ boolean,\ java.util.Date)
+comment2.text=\r\n\ Attempts\ to\ build\ a\ certification\ chain\ for\ given\ certificate\ and\ to\r\n\ verify\ it.\ Relies\ on\ a\ set\ of\ root\ CA\ certificates\ and\ intermediate\r\n\ certificates\ that\ will\ be\ used\ for\ building\ the\ certification\ chain.\ The\r\n\ verification\ process\ assumes\ that\ all\ self-signed\ certificates\ in\ the\ set\r\n\ are\ trusted\ root\ CA\ certificates\ and\ all\ other\ certificates\ in\ the\ set\r\n\ are\ intermediate\ certificates.\r\n\r\n\ @param\ cert\ -\ certificate\ for\ validation\r\n\ @param\ additionalCerts\ -\ set\ of\ trusted\ root\ CA\ certificates\ that\ will\ be\r\n\ used\ as\ "trust\ anchors"\ and\ intermediate\ CA\ certificates\ that\ will\ be\r\n\ used\ as\ part\ of\ the\ certification\ chain.\ All\ self-signed\ certificates\ are\r\n\ considered\ to\ be\ trusted\ root\ CA\ certificates.\ All\ the\ rest\ are\r\n\ considered\ to\ be\ intermediate\ CA\ certificates.\r\n\ @param\ verifySelfSignedCert\ true\ if\ a\ self-signed\ certificate\ is\ accepted,\ false\ if\ not.\r\n\ @param\ signDate\ the\ date\ when\ the\ signing\ took\ place\r\n\ @return\ the\ certification\ chain\ (if\ verification\ is\ successful)\r\n\ @throws\ CertificateVerificationException\ -\ if\ the\ certification\ is\ not\r\n\ successful\ (e.g.\ certification\ path\ cannot\ be\ built\ or\ some\ certificate\r\n\ in\ the\ chain\ is\ expired\ or\ CRL\ checks\ are\ failed)\r\n
+comment3.params=cert\ additionalCerts\ signDate
+comment3.target=void\ checkRevocations(java.security.cert.X509Certificate,\ java.util.Set,\ java.util.Date)
+comment4.params=cert
+comment4.target=boolean\ isSelfSigned(java.security.cert.X509Certificate)
+comment4.text=\r\n\ Checks\ whether\ given\ X.509\ certificate\ is\ self-signed.\r\n\ @param\ cert\ The\ X.509\ certificate\ to\ check.\r\n\ @return\ true\ if\ the\ certificate\ is\ self-signed,\ false\ if\ not.\r\n\ @throws\ java.security.GeneralSecurityException\ \r\n
+comment5.params=ext
+comment5.target=java.util.Set\ downloadExtraCertificates(java.security.cert.X509Extension)
+comment5.text=\r\n\ Download\ extra\ certificates\ from\ the\ URI\ mentioned\ in\ id-ad-caIssuers\ in\ the\ "authority\r\n\ information\ access"\ extension.\ The\ method\ is\ lenient,\ i.e.\ catches\ all\ exceptions.\r\n\r\n\ @param\ ext\ an\ X509\ object\ that\ can\ have\ extensions.\r\n\r\n\ @return\ a\ certificate\ set,\ never\ null.\r\n
+comment6.params=cert\ trustAnchors\ intermediateCerts\ signDate
+comment6.target=java.security.cert.PKIXCertPathBuilderResult\ verifyCertificate(java.security.cert.X509Certificate,\ java.util.Set,\ java.util.Set,\ java.util.Date)
+comment6.text=\r\n\ Attempts\ to\ build\ a\ certification\ chain\ for\ given\ certificate\ and\ to\r\n\ verify\ it.\ Relies\ on\ a\ set\ of\ root\ CA\ certificates\ (trust\ anchors)\ and\ a\r\n\ set\ of\ intermediate\ certificates\ (to\ be\ used\ as\ part\ of\ the\ chain).\r\n\r\n\ @param\ cert\ -\ certificate\ for\ validation\r\n\ @param\ trustAnchors\ -\ set\ of\ trust\ anchors\r\n\ @param\ intermediateCerts\ -\ set\ of\ intermediate\ certificates\r\n\ @param\ signDate\ the\ date\ when\ the\ signing\ took\ place\r\n\ @return\ the\ certification\ chain\ (if\ verification\ is\ successful)\r\n\ @throws\ GeneralSecurityException\ -\ if\ the\ verification\ is\ not\ successful\r\n\ (e.g.\ certification\ path\ cannot\ be\ built\ or\ some\ certificate\ in\ the\ chain\r\n\ is\ expired)\r\n
+comment7.params=cert
+comment7.target=java.lang.String\ extractOCSPURL(java.security.cert.X509Certificate)
+comment7.text=\r\n\ Extract\ the\ OCSP\ URL\ from\ an\ X.509\ certificate\ if\ available.\r\n\r\n\ @param\ cert\ X.509\ certificate\r\n\ @return\ the\ URL\ of\ the\ OCSP\ validation\ service\r\n\ @throws\ IOException\ \r\n
+comment8.params=ocspHelper\ additionalCerts
+comment8.target=void\ verifyOCSP(OcspHelper,\ java.util.Set)
+comment8.text=\r\n\ Verify\ whether\ the\ certificate\ has\ been\ revoked\ at\ signing\ date,\ and\ verify\ whether\r\n\ the\ certificate\ of\ the\ responder\ has\ been\ revoked\ now.\r\n\r\n\ @param\ ocspHelper\ the\ OCSP\ helper.\r\n\ @param\ additionalCerts\r\n\ @throws\ RevokedCertificateException\r\n\ @throws\ IOException\r\n\ @throws\ OCSPException\r\n\ @throws\ CertificateVerificationException\r\n
+numComments=9

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CertInformationHelper
+comment1.params=
+comment1.target=CertInformationHelper()
+comment2.params=content
+comment2.target=java.lang.String\ getSha1Hash(byte[])
+comment2.text=\r\n\ Gets\ the\ SHA-1-Hash\ has\ of\ given\ byte[]-content.\r\n\ \r\n\ @param\ content\ to\ be\ hashed\r\n\ @return\ SHA-1\ hash\ String\r\n
+comment3.params=extensionValue\ certInfo
+comment3.target=void\ getAuthorityInfoExtensionValue(byte[],\ CertSignatureInformation)
+comment3.text=\r\n\ Extracts\ authority\ information\ access\ extension\ values\ from\ the\ given\ data.\ The\ Data\r\n\ structure\ has\ to\ be\ implemented\ as\ described\ in\ RFC\ 2459,\ 4.2.2.1.\r\n\r\n\ @param\ extensionValue\ byte[]\ of\ the\ extension\ value.\r\n\ @param\ certInfo\ where\ to\ put\ the\ found\ values\r\n\ @throws\ IOException\ when\ there\ is\ a\ problem\ with\ the\ extensionValue\r\n
+comment4.params=extensionValue
+comment4.target=java.lang.String\ getCrlUrlFromExtensionValue(byte[])
+comment4.text=\r\n\ Gets\ the\ first\ CRL\ URL\ from\ given\ extension\ value.\ Structure\ has\ to\ be\r\n\ built\ as\ in\ 4.2.1.14\ CRL\ Distribution\ Points\ of\ RFC\ 2459.\r\n\r\n\ @param\ extensionValue\ to\ get\ the\ extension\ value\ from\r\n\ @return\ first\ CRL-\ URL\ or\ null\r\n\ @throws\ IOException\ when\ there\ is\ a\ problem\ with\ the\ extensionValue\r\n
+comment5.params=sequence
+comment5.target=java.lang.String\ extractCrlUrlFromSequence(org.bouncycastle.asn1.ASN1Sequence)
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CreateEmbeddedTimeStamp
+comment0.text=\r\n\ An\ example\ for\ timestamp-signing\ a\ PDF\ for\ PADeS-Specification.\ The\ document\ will\ only\ be\ changed\r\n\ in\ its\ existing\ signature\ by\ a\ signed\ timestamp\ (A\ timestamp\ and\ the\ Hash-Value\ of\ the\ document\r\n\ are\ signed\ by\ a\ Time\ Stamp\ Authority\ (TSA)).\r\n\r\n\ This\ method\ only\ changes\ the\ unsigned\ parameters\ of\ a\ signature,\ so\ that\ it\ is\ kept\ valid.\r\n\r\n\ Use\ case\:\ sign\ offline\ to\ avoid\ zero-day\ attacks\ against\ the\ signing\ machine.\ Once\ the\ signature\r\n\ is\ there\ and\ the\ pdf\ is\ transferred\ to\ a\ network\ connected\ machine,\ one\ is\ likely\ to\ want\ to\ add\r\n\ a\ timestamp.\ (Ralf\ Hauser)\r\n\r\n\ @author\ Alexis\ Suter\r\n
+comment1.params=tsaUrl
+comment1.target=CreateEmbeddedTimeStamp(java.lang.String)
+comment2.params=file
+comment2.target=void\ embedTimeStamp(java.io.File)
+comment2.text=\r\n\ Embeds\ the\ given\ PDF\ file\ with\ signed\ timestamp(s).\ Alters\ the\ original\ file\ on\ disk.\r\n\ \r\n\ @param\ file\ the\ PDF\ file\ to\ sign\ and\ to\ overwrite\r\n\ @throws\ IOException\r\n
+comment3.params=inFile\ outFile
+comment3.target=void\ embedTimeStamp(java.io.File,\ java.io.File)
+comment3.text=\r\n\ Embeds\ signed\ timestamp(s)\ into\ existing\ signatures\ of\ the\ given\ document\r\n\ \r\n\ @param\ inFile\ The\ pdf\ file\ possibly\ containing\ signatures\r\n\ @param\ outFile\ Where\ the\ changed\ document\ will\ be\ saved\r\n\ @throws\ IOException\r\n
+comment4.params=inFile\ outFile
+comment4.target=void\ processTimeStamping(java.io.File,\ java.io.File)
+comment4.text=\r\n\ Processes\ the\ time-stamping\ of\ the\ signature.\r\n\ \r\n\ @param\ inFile\ The\ existing\ PDF\ file\r\n\ @param\ outFile\ Where\ the\ new\ file\ will\ be\ written\ to\r\n\ @throws\ IOException\r\n
+comment5.params=documentBytes
+comment5.target=void\ processRelevantSignatures(byte[])
+comment5.text=\r\n\ Create\ changed\ Signature\ with\ embedded\ TimeStamp\ from\ TSA\r\n\ \r\n\ @param\ documentBytes\ byte[]\ of\ the\ input\ file\r\n\ @throws\ IOException\r\n\ @throws\ CMSException\r\n\ @throws\ NoSuchAlgorithmException\r\n
+comment6.params=docBytes\ output
+comment6.target=void\ embedNewSignatureIntoDocument(byte[],\ java.io.OutputStream)
+comment6.text=\r\n\ Embeds\ the\ new\ signature\ into\ the\ document,\ by\ copying\ the\ rest\ of\ the\ document\r\n\ \r\n\ @param\ docBytes\ byte\ array\ of\ the\ document\r\n\ @param\ output\ target,\ where\ the\ file\ will\ be\ written\r\n\ @throws\ IOException\r\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+comment8.params=
+comment8.target=void\ usage()
+numComments=9

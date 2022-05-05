@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CreateSignature
+comment0.text=\r\n\ An\ example\ for\ signing\ a\ PDF\ with\ bouncy\ castle.\r\n\ A\ keystore\ can\ be\ created\ with\ the\ java\ keytool,\ for\ example\:\r\n\r\n\ {@code\ keytool\ -genkeypair\ -storepass\ 123456\ -storetype\ pkcs12\ -alias\ test\ -validity\ 365\r\n\ \ \ \ \ \ \ \ -v\ -keyalg\ RSA\ -keystore\ keystore.p12\ }\r\n\r\n\ @author\ Thomas\ Chojecki\r\n\ @author\ Vakhtang\ Koroghlishvili\r\n\ @author\ John\ Hewson\r\n
+comment1.params=keystore\ pin
+comment1.target=CreateSignature(java.security.KeyStore,\ char[])
+comment1.text=\r\n\ Initialize\ the\ signature\ creator\ with\ a\ keystore\ and\ certificate\ password.\r\n\r\n\ @param\ keystore\ the\ pkcs12\ keystore\ containing\ the\ signing\ certificate\r\n\ @param\ pin\ the\ password\ for\ recovering\ the\ key\r\n\ @throws\ KeyStoreException\ if\ the\ keystore\ has\ not\ been\ initialized\ (loaded)\r\n\ @throws\ NoSuchAlgorithmException\ if\ the\ algorithm\ for\ recovering\ the\ key\ cannot\ be\ found\r\n\ @throws\ UnrecoverableKeyException\ if\ the\ given\ password\ is\ wrong\r\n\ @throws\ CertificateException\ if\ the\ certificate\ is\ not\ valid\ as\ signing\ time\r\n\ @throws\ IOException\ if\ no\ certificate\ could\ be\ found\r\n
+comment2.params=file
+comment2.target=void\ signDetached(java.io.File)
+comment2.text=\r\n\ Signs\ the\ given\ PDF\ file.\ Alters\ the\ original\ file\ on\ disk.\r\n\ @param\ file\ the\ PDF\ file\ to\ sign\r\n\ @throws\ IOException\ if\ the\ file\ could\ not\ be\ read\ or\ written\r\n
+comment3.params=inFile\ outFile
+comment3.target=void\ signDetached(java.io.File,\ java.io.File)
+comment3.text=\r\n\ Signs\ the\ given\ PDF\ file.\r\n\ @param\ inFile\ input\ PDF\ file\r\n\ @param\ outFile\ output\ PDF\ file\r\n\ @throws\ IOException\ if\ the\ input\ file\ could\ not\ be\ read\r\n
+comment4.params=inFile\ outFile\ tsaUrl
+comment4.target=void\ signDetached(java.io.File,\ java.io.File,\ java.lang.String)
+comment4.text=\r\n\ Signs\ the\ given\ PDF\ file.\r\n\ @param\ inFile\ input\ PDF\ file\r\n\ @param\ outFile\ output\ PDF\ file\r\n\ @param\ tsaUrl\ optional\ TSA\ url\r\n\ @throws\ IOException\ if\ the\ input\ file\ could\ not\ be\ read\r\n
+comment5.params=document\ output
+comment5.target=void\ signDetached(org.apache.pdfbox.pdmodel.PDDocument,\ java.io.OutputStream)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment7.params=
+comment7.target=void\ usage()
+numComments=8
