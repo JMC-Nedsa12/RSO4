@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=CertificateProccessingException
-comment0.text=\r\n\ Class\ to\ wrap\ around\ Certificate\ Processing\ exceptions\r\n\ \r\n\ @author\ Alexis\ Suter\r\n
-comment1.params=cause
-comment1.target=CertificateProccessingException(java.lang.Throwable)
-numComments=2
